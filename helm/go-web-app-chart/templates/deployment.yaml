@@ -19,4 +19,4 @@ spec:
         image: mohammedyunus2002/go-web-app:{{ .Values.image.tag }}
         imagePullPolicy: Always
         ports:
-        - containerPort: 8080
+        - containerPort: 8080 
